@@ -1,0 +1,6 @@
+@each $color in list blue {
+    .#{$color}{
+        background-color: $color;
+    }
+    
+}
